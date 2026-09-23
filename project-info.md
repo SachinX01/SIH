@@ -13,6 +13,8 @@ This workspace separates stable project information from the chronological actio
 - [Praman_Setu_SIH26231_Reference_Style.pptx](Praman_Setu_SIH26231_Reference_Style.pptx): Six-slide presentation following the existing SIH reference structure, with embedded research hyperlinks.
 - [Praman_Setu_SIH26231_Reference_Style_Research.pptx](Praman_Setu_SIH26231_Reference_Style_Research.pptx): Updated six-slide reference-style deck with current government, forensic, laboratory-quality, hash, and digital-signature references.
 - [Praman_Setu_SIH26231_Reference_Style_Legal.pptx](Praman_Setu_SIH26231_Reference_Style_Legal.pptx): Final legal-reference deck with BNSS Section 105, NDPS Act Section 52A, BSA Section 63(4), case-law context, and 14 embedded links.
+- [praman-setu-workflow.svg](praman-setu-workflow.svg): Editable workflow diagram image matching the reference layout.
+- [praman-setu-workflow.mmd](praman-setu-workflow.mmd): Mermaid source code for regenerating the workflow in another diagram tool.
 
 ## Maintenance Rule
 

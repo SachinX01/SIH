@@ -59,6 +59,17 @@
 - Initialized the local Git repository, added the requested GitHub remote, and committed all 15 project files as commit `3423d67`.
 - Push attempt was blocked by GitHub HTTPS authentication because no GitHub CLI login, SSH key, or valid credential is configured on this machine.
 - GitHub publishing completed: `origin/main` now points to commit `1e58c44`, containing the complete Praman Setu project history and files.
+- Created `praman-setu-workflow.svg` and `praman-setu-workflow.mmd`, matching the reference workflow-diagram structure with eight stages, implementation details, legal checkpoints, and the presumptive-result/laboratory-confirmation boundary.
+
+## 2026-09-23
+
+### Standalone architecture graphic
+
+- Created `praman-setu-architecture.svg` as a standalone reference-style architecture image; no presentation slide was modified.
+- Created `praman-setu-architecture.mmd` as reusable Mermaid source for regeneration in Mermaid-compatible tools.
+- Mapped the Praman Setu flow to operator login, working device, online capture, offline-first storage and sync, evidence verification, supervisor review, and laboratory-confirmation boundary.
+- Validated the SVG XML structure and confirmed all three Mermaid branches plus the laboratory-confirmation boundary.
+- Created `praman-setu-architecture-image-prompt.md`, a detailed image-generation prompt covering the reference composition, Praman Setu workflow actions, topic-specific icons, visual style, exact labels, safety wording, and negative prompt.
 
 ## Running Log Format
 

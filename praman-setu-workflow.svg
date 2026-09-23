@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#102a43" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#536777"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, sans-serif; fill: #12324a; }
+      .format { font: 700 18px Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; }
+      .main { font: 700 20px Arial, sans-serif; fill: #17384f; }
+      .sub { font: 400 16px Arial, sans-serif; fill: #506575; }
+      .feature { font: 700 15px Arial, sans-serif; fill: #12324a; }
+      .outcome { font: 700 22px Arial, sans-serif; fill: #ffffff; }
+      .small { font: 400 14px Arial, sans-serif; fill: #d7e6ee; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  <rect x="0" y="0" width="1600" height="12" fill="#1b8db4"/>
+  <text x="800" y="58" text-anchor="middle" class="title">Praman Setu Workflow - Field Capture to Verified Record</text>
+  <text x="800" y="88" text-anchor="middle" class="sub">SIH26231 | Digital Companion for Field Drug Testing</text>
+
+  <!-- top row -->
+  <g filter="url(#shadow)">
+    <rect x="35" y="135" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="35" y="135" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="195" y="168" text-anchor="middle" class="format">FORMAT 1</text>
+    <text x="195" y="225" text-anchor="middle" class="main">Operator Login</text>
+    <text x="195" y="258" text-anchor="middle" class="sub">Badge ID + PIN</text>
+    <text x="195" y="283" text-anchor="middle" class="sub">Role and session creation</text>
+
+    <rect x="425" y="135" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="425" y="135" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="585" y="168" text-anchor="middle" class="format">FORMAT 2</text>
+    <text x="585" y="225" text-anchor="middle" class="main">Kit QR Validation</text>
+    <text x="585" y="258" text-anchor="middle" class="sub">Kit ID, batch, expiry, type</text>
+    <text x="585" y="283" text-anchor="middle" class="sub">VALID continues | EXPIRED blocks</text>
+
+    <rect x="815" y="135" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="815" y="135" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="975" y="168" text-anchor="middle" class="format">FORMAT 3A</text>
+    <text x="975" y="225" text-anchor="middle" class="main">Reaction Timer</text>
+    <text x="975" y="258" text-anchor="middle" class="sub">Kit-specific protocol interval</text>
+    <text x="975" y="283" text-anchor="middle" class="sub">Capture window control</text>
+
+    <rect x="1205" y="135" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="1205" y="135" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="1365" y="168" text-anchor="middle" class="format">FORMAT 3B</text>
+    <text x="1365" y="225" text-anchor="middle" class="main">Guided Camera Capture</text>
+    <text x="1365" y="258" text-anchor="middle" class="sub">Reference card + test kit</text>
+    <text x="1365" y="283" text-anchor="middle" class="sub">Blur, glare, lighting gates</text>
+  </g>
+
+  <line x1="355" y1="225" x2="415" y2="225" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="745" y1="225" x2="805" y2="225" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1135" y1="225" x2="1195" y2="225" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- top feature row -->
+  <g>
+    <rect x="45" y="350" width="300" height="70" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="195" y="380" text-anchor="middle" class="feature">PIN / BIOMETRIC AUTH</text>
+    <text x="195" y="402" text-anchor="middle" class="sub">operator_id + role</text>
+    <rect x="435" y="350" width="300" height="70" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="585" y="380" text-anchor="middle" class="feature">KIT METADATA</text>
+    <text x="585" y="402" text-anchor="middle" class="sub">batch + expiry + status</text>
+    <rect x="825" y="350" width="300" height="70" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="975" y="380" text-anchor="middle" class="feature">TIMER STATE</text>
+    <text x="975" y="402" text-anchor="middle" class="sub">in_window + elapsed_s</text>
+    <rect x="1215" y="350" width="300" height="70" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="1365" y="380" text-anchor="middle" class="feature">QUALITY GATE</text>
+    <text x="1365" y="402" text-anchor="middle" class="sub">blur + glare + exposure</text>
+  </g>
+
+  <!-- second row -->
+  <g filter="url(#shadow)">
+    <rect x="35" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="35" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="195" y="538" text-anchor="middle" class="format">FORMAT 4</text>
+    <text x="195" y="595" text-anchor="middle" class="main">Card Calibration</text>
+    <text x="195" y="628" text-anchor="middle" class="sub">Six patches + gain correction</text>
+    <text x="195" y="653" text-anchor="middle" class="sub">CARD VALID / CARD INVALID</text>
+
+    <rect x="425" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="425" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="585" y="538" text-anchor="middle" class="format">FORMAT 4B</text>
+    <text x="585" y="595" text-anchor="middle" class="main">Sample Analysis</text>
+    <text x="585" y="628" text-anchor="middle" class="sub">ROI + RGB-to-LAB</text>
+    <text x="585" y="653" text-anchor="middle" class="sub">Delta E + confidence</text>
+
+    <rect x="815" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="815" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="975" y="538" text-anchor="middle" class="format">FORMAT 5</text>
+    <text x="975" y="595" text-anchor="middle" class="main">Evidence Record</text>
+    <text x="975" y="628" text-anchor="middle" class="sub">SHA-256 + hash chain</text>
+    <text x="975" y="653" text-anchor="middle" class="sub">Digital signature + export</text>
+
+    <rect x="1205" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
+    <rect x="1205" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
+    <text x="1365" y="538" text-anchor="middle" class="format">FORMAT 6/7/8</text>
+    <text x="1365" y="595" text-anchor="middle" class="main">Verify and Review</text>
+    <text x="1365" y="628" text-anchor="middle" class="sub">History + retest comparison</text>
+    <text x="1365" y="653" text-anchor="middle" class="sub">Supervisor + verify.html</text>
+  </g>
+
+  <line x1="1365" y1="420" x2="1365" y2="485" stroke="#536777" stroke-width="4"/>
+  <line x1="1205" y1="595" x2="1135" y2="595" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="815" y1="595" x2="745" y2="595" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="425" y1="595" x2="355" y2="595" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- feature row -->
+  <g>
+    <rect x="45" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="195" y="749" text-anchor="middle" class="feature">REFERENCE DB</text>
+    <text x="195" y="772" text-anchor="middle" class="sub">versioned kit thresholds</text>
+    <rect x="435" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="585" y="749" text-anchor="middle" class="feature">CLASSIFICATION</text>
+    <text x="585" y="772" text-anchor="middle" class="sub">Positive / Negative / Inconclusive</text>
+    <rect x="825" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="975" y="749" text-anchor="middle" class="feature">OFFLINE-FIRST</text>
+    <text x="975" y="772" text-anchor="middle" class="sub">PENDING / SYNCED / FAILED</text>
+    <rect x="1215" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
+    <text x="1365" y="749" text-anchor="middle" class="feature">LEGAL CHECKLIST</text>
+    <text x="1365" y="772" text-anchor="middle" class="sub">BNSS / NDPS / BSA references</text>
+  </g>
+
+  <rect x="120" y="860" width="1360" height="70" rx="20" fill="#12324a"/>
+  <text x="800" y="892" text-anchor="middle" class="outcome">PRESUMPTIVE FIELD RESULT + TAMPER-EVIDENT DIGITAL RECORD</text>
+  <text x="800" y="917" text-anchor="middle" class="small">Retest, supervisor review, and laboratory confirmation remain part of the workflow.</text>
+</svg>
