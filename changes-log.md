@@ -58,6 +58,7 @@
 - Expanded `link.md` with additional relevant posts and research: BPR&D crime-scene audio-video SOP, BPR&D/NCRB criminal-law resources, NIST drug-safety research, NISTIR 8589 validation guidance, NIST process mapping, forensic quality assurance, NIST digital evidence, OSAC sampling guidance, and NFSU context.
 - Initialized the local Git repository, added the requested GitHub remote, and committed all 15 project files as commit `3423d67`.
 - Push attempt was blocked by GitHub HTTPS authentication because no GitHub CLI login, SSH key, or valid credential is configured on this machine.
+- GitHub publishing completed: `origin/main` now points to commit `1e58c44`, containing the complete Praman Setu project history and files.
 
 ## Running Log Format
 
