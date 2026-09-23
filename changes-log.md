@@ -63,6 +63,7 @@
 - Corrected the SVG workflow layout so the visual arrow path matches the actual sequence: `1 -> 2 -> 3A -> 3B -> 4 -> 4B -> 5 -> 6/7/8`.
 - Created `praman-setu-impact-prompt.md` and `praman-setu-impact.mmd` for a reference-style three-column impact diagram; no image was generated.
 - Created `praman-setu-benefits-prompt.md` and `praman-setu-benefits.mmd` for a radial benefits diagram matching the supplied reference; no image was generated.
+- Created `praman-setu-feasibility-prompt.md` and `praman-setu-feasibility.mmd` for a Technical, Economic, and Operational feasibility infographic; no image was generated.
 
 ## 2026-09-23
 

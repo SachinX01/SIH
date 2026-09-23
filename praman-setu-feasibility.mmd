@@ -1,0 +1,41 @@
+flowchart TB
+    T["ANALYSIS OF FEASIBILITY"]
+
+    subgraph TECH["Technical"]
+        T1["Mobile-First Integration<br/><small>React Native + VisionCamera + OpenCV</small>"]
+        T2["Offline Evidence Engine<br/><small>SQLite + transactional sync states</small>"]
+        T3["Integrity and Verification<br/><small>SHA-256 + hash chain + signatures</small>"]
+        T1 --> T2 --> T3
+    end
+
+    subgraph ECON["Economic"]
+        E1["Low Hardware Cost<br/><small>Existing kits and smartphones</small>"]
+        E2["Prototype Cost Control<br/><small>Focused app + bundled Reference DB</small>"]
+        E3["Operational Efficiency<br/><small>Less manual documentation</small>"]
+        E1 --> E2 --> E3
+    end
+
+    subgraph OPS["Operational"]
+        O1["Field Readiness<br/><small>QR + timer + quality gates + offline</small>"]
+        O2["Human-Centered Workflow<br/><small>Reasons, actions, supervisor review</small>"]
+        O3["Responsible Adoption<br/><small>BNSS / NDPS / BSA alignment</small>"]
+        O1 --> O2 --> O3
+    end
+
+    T --> T1
+    T --> E1
+    T --> O1
+    T3 --> F["Feasible as a controlled prototype<br/><small>Production requires validation, SOPs, legal review, and laboratory confirmation</small>"]
+    E3 --> F
+    O3 --> F
+
+    classDef title fill:#ff914d,stroke:#ff914d,color:#ffffff,stroke-width:3px;
+    classDef technical fill:#198bb2,stroke:#198bb2,color:#ffffff;
+    classDef economic fill:#f2ae20,stroke:#f2ae20,color:#ffffff;
+    classDef operational fill:#87508b,stroke:#87508b,color:#ffffff;
+    classDef footer fill:#17384f,stroke:#17384f,color:#ffffff,stroke-width:2px;
+    class T title;
+    class T1,T2,T3 technical;
+    class E1,E2,E3 economic;
+    class O1,O2,O3 operational;
+    class F footer;

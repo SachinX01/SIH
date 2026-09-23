@@ -19,6 +19,8 @@ This workspace separates stable project information from the chronological actio
 - [praman-setu-impact.mmd](praman-setu-impact.mmd): Mermaid source for the Governance, Social, and Technological Impact diagram.
 - [praman-setu-benefits-prompt.md](praman-setu-benefits-prompt.md): Prompt and layout instructions for generating a radial Praman Setu benefits infographic.
 - [praman-setu-benefits.mmd](praman-setu-benefits.mmd): Mermaid source for the radial benefits diagram.
+- [praman-setu-feasibility-prompt.md](praman-setu-feasibility-prompt.md): Prompt and layout instructions for generating the feasibility infographic.
+- [praman-setu-feasibility.mmd](praman-setu-feasibility.mmd): Mermaid source for the Technical, Economic, and Operational feasibility diagram.
 
 ## Maintenance Rule
 
