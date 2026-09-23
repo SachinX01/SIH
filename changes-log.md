@@ -62,6 +62,7 @@
 - Created `praman-setu-workflow.svg` and `praman-setu-workflow.mmd`, matching the reference workflow-diagram structure with eight stages, implementation details, legal checkpoints, and the presumptive-result/laboratory-confirmation boundary.
 - Corrected the SVG workflow layout so the visual arrow path matches the actual sequence: `1 -> 2 -> 3A -> 3B -> 4 -> 4B -> 5 -> 6/7/8`.
 - Created `praman-setu-impact-prompt.md` and `praman-setu-impact.mmd` for a reference-style three-column impact diagram; no image was generated.
+- Created `praman-setu-benefits-prompt.md` and `praman-setu-benefits.mmd` for a radial benefits diagram matching the supplied reference; no image was generated.
 
 ## 2026-09-23
 

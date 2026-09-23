@@ -1,0 +1,38 @@
+flowchart TB
+    C(("Benefits of<br/>Praman Setu<br/><small>SIH26231</small>"))
+
+    A(("Calibrated Decisions<br/><small>Reference card + LAB / Delta E</small>"))
+    B(("Faster Field Documentation<br/><small>Guided capture, QR, and timer</small>"))
+    D(("Transparency and Trust<br/><small>Hash chain + digital signature</small>"))
+    E(("Efficient Evidence Handling<br/><small>Offline SQLite + PDF / JSON / QR</small>"))
+    F(("Safe Escalation<br/><small>Inconclusive + laboratory confirmation</small>"))
+    G(("Operator Standardization<br/><small>Quality gates + explainable results</small>"))
+
+    C --- A
+    C --- B
+    C --- D
+    C --- E
+    C --- F
+    C --- G
+
+    A --- B --- D --- E --- F --- G --- A
+
+    Z["Presumptive field result<br/><small>Laboratory confirmation remains required</small>"]
+    C --- Z
+
+    classDef center fill:#ffffff,stroke:#173f67,stroke-width:4px,color:#173f67;
+    classDef calibrated fill:#0c7385,stroke:#0c7385,color:#ffffff;
+    classDef speed fill:#2d9bd3,stroke:#2d9bd3,color:#ffffff;
+    classDef trust fill:#39b987,stroke:#39b987,color:#ffffff;
+    classDef evidence fill:#f39a3d,stroke:#f39a3d,color:#ffffff;
+    classDef safety fill:#7058d6,stroke:#7058d6,color:#ffffff;
+    classDef standard fill:#1db5ae,stroke:#1db5ae,color:#ffffff;
+    classDef boundary fill:#173f67,stroke:#173f67,color:#ffffff;
+    class C center;
+    class A calibrated;
+    class B speed;
+    class D trust;
+    class E evidence;
+    class F safety;
+    class G standard;
+    class Z boundary;

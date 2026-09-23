@@ -17,6 +17,8 @@ This workspace separates stable project information from the chronological actio
 - [praman-setu-workflow.mmd](praman-setu-workflow.mmd): Mermaid source code for regenerating the workflow in another diagram tool.
 - [praman-setu-impact-prompt.md](praman-setu-impact-prompt.md): Prompt and layout instructions for generating a Praman Setu impact infographic.
 - [praman-setu-impact.mmd](praman-setu-impact.mmd): Mermaid source for the Governance, Social, and Technological Impact diagram.
+- [praman-setu-benefits-prompt.md](praman-setu-benefits-prompt.md): Prompt and layout instructions for generating a radial Praman Setu benefits infographic.
+- [praman-setu-benefits.mmd](praman-setu-benefits.mmd): Mermaid source for the radial benefits diagram.
 
 ## Maintenance Rule
 
