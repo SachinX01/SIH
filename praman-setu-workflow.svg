@@ -77,34 +77,34 @@
   <g filter="url(#shadow)">
     <rect x="35" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
     <rect x="35" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
-    <text x="195" y="538" text-anchor="middle" class="format">FORMAT 4</text>
-    <text x="195" y="595" text-anchor="middle" class="main">Card Calibration</text>
-    <text x="195" y="628" text-anchor="middle" class="sub">Six patches + gain correction</text>
-    <text x="195" y="653" text-anchor="middle" class="sub">CARD VALID / CARD INVALID</text>
+    <text x="195" y="538" text-anchor="middle" class="format">FORMAT 6/7/8</text>
+    <text x="195" y="595" text-anchor="middle" class="main">Verify and Review</text>
+    <text x="195" y="628" text-anchor="middle" class="sub">History + retest comparison</text>
+    <text x="195" y="653" text-anchor="middle" class="sub">Supervisor + verify.html</text>
 
     <rect x="425" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
     <rect x="425" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
-    <text x="585" y="538" text-anchor="middle" class="format">FORMAT 4B</text>
-    <text x="585" y="595" text-anchor="middle" class="main">Sample Analysis</text>
-    <text x="585" y="628" text-anchor="middle" class="sub">ROI + RGB-to-LAB</text>
-    <text x="585" y="653" text-anchor="middle" class="sub">Delta E + confidence</text>
+    <text x="585" y="538" text-anchor="middle" class="format">FORMAT 5</text>
+    <text x="585" y="595" text-anchor="middle" class="main">Evidence Record</text>
+    <text x="585" y="628" text-anchor="middle" class="sub">SHA-256 + hash chain</text>
+    <text x="585" y="653" text-anchor="middle" class="sub">Digital signature + export</text>
 
     <rect x="815" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
     <rect x="815" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
-    <text x="975" y="538" text-anchor="middle" class="format">FORMAT 5</text>
-    <text x="975" y="595" text-anchor="middle" class="main">Evidence Record</text>
-    <text x="975" y="628" text-anchor="middle" class="sub">SHA-256 + hash chain</text>
-    <text x="975" y="653" text-anchor="middle" class="sub">Digital signature + export</text>
+    <text x="975" y="538" text-anchor="middle" class="format">FORMAT 4B</text>
+    <text x="975" y="595" text-anchor="middle" class="main">Sample Analysis</text>
+    <text x="975" y="628" text-anchor="middle" class="sub">ROI + RGB-to-LAB</text>
+    <text x="975" y="653" text-anchor="middle" class="sub">Delta E + confidence</text>
 
     <rect x="1205" y="505" width="320" height="180" rx="5" fill="#f7f4e9"/>
     <rect x="1205" y="505" width="320" height="52" rx="5" fill="#198bb2"/>
-    <text x="1365" y="538" text-anchor="middle" class="format">FORMAT 6/7/8</text>
-    <text x="1365" y="595" text-anchor="middle" class="main">Verify and Review</text>
-    <text x="1365" y="628" text-anchor="middle" class="sub">History + retest comparison</text>
-    <text x="1365" y="653" text-anchor="middle" class="sub">Supervisor + verify.html</text>
+    <text x="1365" y="538" text-anchor="middle" class="format">FORMAT 4</text>
+    <text x="1365" y="595" text-anchor="middle" class="main">Card Calibration</text>
+    <text x="1365" y="628" text-anchor="middle" class="sub">Six patches + gain correction</text>
+    <text x="1365" y="653" text-anchor="middle" class="sub">CARD VALID / CARD INVALID</text>
   </g>
 
-  <line x1="1365" y1="420" x2="1365" y2="485" stroke="#536777" stroke-width="4"/>
+  <line x1="1365" y1="420" x2="1365" y2="485" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
   <line x1="1205" y1="595" x2="1135" y2="595" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
   <line x1="815" y1="595" x2="745" y2="595" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
   <line x1="425" y1="595" x2="355" y2="595" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
@@ -112,20 +112,21 @@
   <!-- feature row -->
   <g>
     <rect x="45" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
-    <text x="195" y="749" text-anchor="middle" class="feature">REFERENCE DB</text>
-    <text x="195" y="772" text-anchor="middle" class="sub">versioned kit thresholds</text>
+    <text x="195" y="749" text-anchor="middle" class="feature">LEGAL CHECKLIST</text>
+    <text x="195" y="772" text-anchor="middle" class="sub">BNSS / NDPS / BSA references</text>
     <rect x="435" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
-    <text x="585" y="749" text-anchor="middle" class="feature">CLASSIFICATION</text>
-    <text x="585" y="772" text-anchor="middle" class="sub">Positive / Negative / Inconclusive</text>
+    <text x="585" y="749" text-anchor="middle" class="feature">OFFLINE-FIRST</text>
+    <text x="585" y="772" text-anchor="middle" class="sub">PENDING / SYNCED / FAILED</text>
     <rect x="825" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
-    <text x="975" y="749" text-anchor="middle" class="feature">OFFLINE-FIRST</text>
-    <text x="975" y="772" text-anchor="middle" class="sub">PENDING / SYNCED / FAILED</text>
+    <text x="975" y="749" text-anchor="middle" class="feature">CLASSIFICATION</text>
+    <text x="975" y="772" text-anchor="middle" class="sub">Positive / Negative / Inconclusive</text>
     <rect x="1215" y="720" width="300" height="68" rx="8" fill="#eef7fa" stroke="#1b8db4" stroke-width="2"/>
-    <text x="1365" y="749" text-anchor="middle" class="feature">LEGAL CHECKLIST</text>
-    <text x="1365" y="772" text-anchor="middle" class="sub">BNSS / NDPS / BSA references</text>
+    <text x="1365" y="749" text-anchor="middle" class="feature">REFERENCE DB</text>
+    <text x="1365" y="772" text-anchor="middle" class="sub">versioned kit thresholds</text>
   </g>
 
   <rect x="120" y="860" width="1360" height="70" rx="20" fill="#12324a"/>
   <text x="800" y="892" text-anchor="middle" class="outcome">PRESUMPTIVE FIELD RESULT + TAMPER-EVIDENT DIGITAL RECORD</text>
   <text x="800" y="917" text-anchor="middle" class="small">Retest, supervisor review, and laboratory confirmation remain part of the workflow.</text>
+  <line x1="195" y1="788" x2="195" y2="850" stroke="#536777" stroke-width="4" marker-end="url(#arrow)"/>
 </svg>

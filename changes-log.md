@@ -60,6 +60,7 @@
 - Push attempt was blocked by GitHub HTTPS authentication because no GitHub CLI login, SSH key, or valid credential is configured on this machine.
 - GitHub publishing completed: `origin/main` now points to commit `1e58c44`, containing the complete Praman Setu project history and files.
 - Created `praman-setu-workflow.svg` and `praman-setu-workflow.mmd`, matching the reference workflow-diagram structure with eight stages, implementation details, legal checkpoints, and the presumptive-result/laboratory-confirmation boundary.
+- Corrected the SVG workflow layout so the visual arrow path matches the actual sequence: `1 -> 2 -> 3A -> 3B -> 4 -> 4B -> 5 -> 6/7/8`.
 
 ## 2026-09-23
 
