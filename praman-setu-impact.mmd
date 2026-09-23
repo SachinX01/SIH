@@ -1,0 +1,44 @@
+flowchart TB
+    T["Praman Setu<br/><small>Driving Reliable Field Evidence</small>"]
+
+    subgraph G["Governance & Administration"]
+        G1["Evidence-backed<br/>field records"]
+        G2["Standardized testing<br/>workflow"]
+        G3["Operator and kit<br/>accountability"]
+        G4["Supervisor review<br/>and audit trail"]
+        G1 --> G2 --> G3 --> G4
+    end
+
+    subgraph S["Social Impact"]
+        S1["More consistent<br/>field decisions"]
+        S2["Clear presumptive-result<br/>communication"]
+        S3["Faster escalation to<br/>laboratory confirmation"]
+        S4["Safer simulated training<br/>and demonstrations"]
+        S1 --> S2 --> S3 --> S4
+    end
+
+    subgraph Tech["Technological Impact"]
+        T1["Reference-card calibration<br/>and Delta E analysis"]
+        T2["Offline-first mobile<br/>evidence capture"]
+        T3["Hash-chain and digital-signature<br/>verification"]
+        T4["PDF, JSON, QR, and<br/>verification webpage export"]
+        T1 --> T2 --> T3 --> T4
+    end
+
+    T --> G1
+    T --> S1
+    T --> T1
+    G4 --> F["Presumptive field result<br/><small>Laboratory confirmation remains required</small>"]
+    S4 --> F
+    T4 --> F
+
+    classDef title fill:#12324a,stroke:#12324a,color:#ffffff,stroke-width:3px;
+    classDef governance fill:#198bb2,stroke:#198bb2,color:#ffffff;
+    classDef social fill:#f2ae20,stroke:#f2ae20,color:#ffffff;
+    classDef technology fill:#87508b,stroke:#87508b,color:#ffffff;
+    classDef footer fill:#12324a,stroke:#12324a,color:#ffffff,stroke-width:2px;
+    class T title;
+    class G1,G2,G3,G4 governance;
+    class S1,S2,S3,S4 social;
+    class T1,T2,T3,T4 technology;
+    class F footer;

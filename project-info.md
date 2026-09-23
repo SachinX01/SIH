@@ -15,6 +15,8 @@ This workspace separates stable project information from the chronological actio
 - [Praman_Setu_SIH26231_Reference_Style_Legal.pptx](Praman_Setu_SIH26231_Reference_Style_Legal.pptx): Final legal-reference deck with BNSS Section 105, NDPS Act Section 52A, BSA Section 63(4), case-law context, and 14 embedded links.
 - [praman-setu-workflow.svg](praman-setu-workflow.svg): Editable workflow diagram image matching the reference layout.
 - [praman-setu-workflow.mmd](praman-setu-workflow.mmd): Mermaid source code for regenerating the workflow in another diagram tool.
+- [praman-setu-impact-prompt.md](praman-setu-impact-prompt.md): Prompt and layout instructions for generating a Praman Setu impact infographic.
+- [praman-setu-impact.mmd](praman-setu-impact.mmd): Mermaid source for the Governance, Social, and Technological Impact diagram.
 
 ## Maintenance Rule
 
