@@ -1,0 +1,45 @@
+flowchart LR
+    subgraph G["Gaps Identified"]
+        G1["01<br/>Subjective color<br/>interpretation"]
+        G2["02<br/>No verifiable<br/>test record"]
+        G3["03<br/>Fragmented kit<br/>and timing data"]
+        G4["04<br/>Poor image quality<br/>and lighting variation"]
+        G5["05<br/>No reliable<br/>offline continuity"]
+        G6["06<br/>Unclear inconclusive<br/>decisions"]
+        G7["07<br/>Difficult evidence<br/>verification"]
+        G8["08<br/>Retests and reviews<br/>disconnected"]
+        G9["09<br/>Procedural documentation<br/>gaps"]
+    end
+
+    subgraph S["Our Solution"]
+        S1["Reference-card calibration<br/>with LAB and Delta E"]
+        S2["SHA-256 image hash,<br/>hash chain, digital signature"]
+        S3["QR kit validation<br/>and reaction timer"]
+        S4["Blur, glare, exposure,<br/>and quality gates"]
+        S5["SQLite-first storage<br/>with retryable sync"]
+        S6["Structured reasons,<br/>confidence, next action"]
+        S7["JSON, PDF, image, QR,<br/>and verify.html checks"]
+        S8["Linked retest comparison<br/>and supervisor review"]
+        S9["Certificate-ready export<br/>BNSS / NDPS / BSA checklist"]
+    end
+
+    G1 --> S1
+    G2 --> S2
+    G3 --> S3
+    G4 --> S4
+    G5 --> S5
+    G6 --> S6
+    G7 --> S7
+    G8 --> S8
+    G9 --> S9
+
+    F["Supports documentation and traceability<br/><small>Presumptive field result; laboratory confirmation and statutory procedures remain required</small>"]
+    S1 --> F
+    S9 --> F
+
+    classDef gap fill:#ef8588,stroke:#ef8588,color:#1d2530;
+    classDef solution fill:#62d3c1,stroke:#62d3c1,color:#102d3f;
+    classDef footer fill:#17384f,stroke:#17384f,color:#ffffff,stroke-width:2px;
+    class G1,G2,G3,G4,G5,G6,G7,G8,G9 gap;
+    class S1,S2,S3,S4,S5,S6,S7,S8,S9 solution;
+    class F footer;

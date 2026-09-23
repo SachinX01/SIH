@@ -21,6 +21,8 @@ This workspace separates stable project information from the chronological actio
 - [praman-setu-benefits.mmd](praman-setu-benefits.mmd): Mermaid source for the radial benefits diagram.
 - [praman-setu-feasibility-prompt.md](praman-setu-feasibility-prompt.md): Prompt and layout instructions for generating the feasibility infographic.
 - [praman-setu-feasibility.mmd](praman-setu-feasibility.mmd): Mermaid source for the Technical, Economic, and Operational feasibility diagram.
+- [praman-setu-gaps-solution-prompt.md](praman-setu-gaps-solution-prompt.md): Prompt for generating the Gaps Identified vs Our Solution comparison infographic.
+- [praman-setu-gaps-solution.mmd](praman-setu-gaps-solution.mmd): Mermaid source for the nine-row gap-to-solution diagram.
 
 ## Maintenance Rule
 

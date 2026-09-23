@@ -64,6 +64,7 @@
 - Created `praman-setu-impact-prompt.md` and `praman-setu-impact.mmd` for a reference-style three-column impact diagram; no image was generated.
 - Created `praman-setu-benefits-prompt.md` and `praman-setu-benefits.mmd` for a radial benefits diagram matching the supplied reference; no image was generated.
 - Created `praman-setu-feasibility-prompt.md` and `praman-setu-feasibility.mmd` for a Technical, Economic, and Operational feasibility infographic; no image was generated.
+- Created `praman-setu-gaps-solution-prompt.md` and `praman-setu-gaps-solution.mmd` for a nine-row Gaps Identified vs Our Solution comparison; no image was generated.
 
 ## 2026-09-23
 
